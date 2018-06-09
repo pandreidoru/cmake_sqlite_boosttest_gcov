@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# Gtags files
+GPATH
+GTAGS
+GRTAGS
+
+# ODB C++ output files
+*-odb.*pp
+
+# Directories
+*cmake-build-debug/
+*.idea/
+*.vscode/
