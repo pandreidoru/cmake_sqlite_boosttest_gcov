@@ -11,3 +11,6 @@ It uses the following projects:
   - [cmake-modules](https://github.com/bilke/cmake-modules)
   - [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
   - [lcov](http://ltp.sourceforge.net/coverage/lcov.php)
+  
+Code coverate output can be seen opening following file in a web browser:  
+> cmake-build-debug/test_coverage/index.html
