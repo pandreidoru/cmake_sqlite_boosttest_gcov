@@ -1,5 +1,5 @@
 # cpp_persist
-A C++ template project pre-configured for data persistance (ODB C++, SQLite), unit testing (Boost.Test) and code coverage(gcov, lcov).
+A C++ template project pre-configured for data persistance, unit testing and code coverage.
 
 It uses the following projects:
 - Data persistance
