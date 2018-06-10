@@ -15,5 +15,5 @@ It uses the following projects:
 The SQLite database is saved at:
 > cmake-build-debug/data.db
 
-Code coverate output can be seen opening following file in a web browser:  
+Code coverage output can be seen opening following file in a web browser:  
 > cmake-build-debug/test_coverage/index.html
