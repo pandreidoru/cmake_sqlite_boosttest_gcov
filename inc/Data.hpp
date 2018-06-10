@@ -13,8 +13,7 @@ namespace persist {
 
 #pragma db id auto
     unsigned long int id_;
-    std::string member1_;
-    std::string member2_;
+    std::string name_;
     
     friend std::ostream& operator<<(std::ostream&, const Data&);
   };

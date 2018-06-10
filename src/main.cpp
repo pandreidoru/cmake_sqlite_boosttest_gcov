@@ -2,9 +2,9 @@
 #include <Data.hpp>
 
 int main() {
-  auto data = persist::Data{ 1, "Member 1", "Member 2" };
+  auto data = persist::Data{ 1, "Data 1" };
   
-  std::cout << "Hello, " << data << "!" << std::endl;
+  std::cout << data << std::endl;
   
   return 0;
 }

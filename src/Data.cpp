@@ -5,16 +5,6 @@
 
 namespace persist {
   std::ostream& operator<<(std::ostream& os, const Data& data) {
-    if (!data.member1_.empty()) {
-      os << data.member1_ << " ";
-    }
-    
-    if (!data.member2_.empty()) {
-      os << data.member2_ << " ";
-    }
-    
-    os << data.id_;
-    
-    return os;
+    return os << "id = " << data.id_ << " name = " << data.name_;
   }
 } // namespace persist
