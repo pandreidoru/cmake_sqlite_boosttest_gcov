@@ -1,5 +1,5 @@
 # cpp_persist
-A C++ template project pre-configured for data persistance, unit testing and code coverage.
+A C++ project template pre-configured for data persistance, unit testing and code coverage.
 
 It uses the following projects:
 - Data persistance
