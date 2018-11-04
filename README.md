@@ -13,7 +13,7 @@ This is a cmake C++ project template configured for:
 
 ## Project structure
 
-- The googletest and cmake-modules were added to this repository via git-subtree, so you can easily update these repositories with the following commands:
+- The [cmake-modules](https://github.com/bilke/cmake-modules) was added to this repository via [git-subtree](https://github.com/apenwarr/git-subtree), so you can easily update it with the following command:
 
 ```Bash
 cd root_of_this_project
