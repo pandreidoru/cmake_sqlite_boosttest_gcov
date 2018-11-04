@@ -13,17 +13,36 @@ This is a cmake C++ project template configured for:
 
 ## Project structure
 
+```
+.
+├── cmake
+├── CMakeLists.txt
+├── inc
+│   └── Data.hpp
+├── LICENSE
+├── README.md
+├── src
+│   ├── CMakeLists.txt
+│   ├── Data.cpp
+│   └── main.cpp
+└── test
+    └── src
+        ├── CMakeLists.txt
+        ├── DataTest.cpp
+        └── TestEntry.cpp
+```
+
 - The [cmake-modules](https://github.com/bilke/cmake-modules) was added to this repository via [git-subtree](https://github.com/apenwarr/git-subtree), so you can easily update it with the following command:
 
-```Bash
-cd root_of_this_project
-git subtree pull --squash --prefix=cmake git@github.com:bilke/cmake-modules.git master
-```
+  ```Bash
+  cd root_of_this_project
+  git subtree pull --squash --prefix=cmake git@github.com:bilke/cmake-modules.git master
+  ```
 
 ## Notes
 
-The SQLite database is saved at:
-> cmake-build-debug/data.db
+- The SQLite database is saved at:
+  > cmake-build-debug/data.db
 
-Code coverage output can be seen opening following file in a web browser:  
-> cmake-build-debug/test_coverage/index.html
+- Code coverage output can be seen opening following file in a web browser:
+  > cmake-build-debug/test_coverage/index.html
